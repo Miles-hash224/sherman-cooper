@@ -1,5 +1,3 @@
-import React from 'react';
-
 const WhatWeDo = () => {
     return (
         <main className="pt-32 md:pt-40 pb-20 px-6 md:px-12 max-w-7xl mx-auto min-h-screen">

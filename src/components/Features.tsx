@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { KeyRound, ShieldCheck, Wrench, Home, PieChart, Users } from 'lucide-react';
 

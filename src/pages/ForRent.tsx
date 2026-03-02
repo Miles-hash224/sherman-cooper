@@ -1,4 +1,3 @@
-import React from 'react';
 import { Bed, Bath, ArrowRight, ExternalLink } from 'lucide-react';
 
 const ForRent = () => {

@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Check } from 'lucide-react';
 
@@ -64,8 +63,8 @@ const Pricing = () => {
                         <motion.div
                             key={index}
                             className={`relative rounded-sm p-8 md:p-12 border transition-all duration-300 ${plan.highlighted
-                                    ? 'bg-brand-charcoal text-white border-brand-charcoal shadow-2xl transform md:-translate-y-4'
-                                    : 'bg-white text-brand-charcoal border-brand-charcoal/10 hover:border-brand-gold/30 hover:shadow-xl'
+                                ? 'bg-brand-charcoal text-white border-brand-charcoal shadow-2xl transform md:-translate-y-4'
+                                : 'bg-white text-brand-charcoal border-brand-charcoal/10 hover:border-brand-gold/30 hover:shadow-xl'
                                 }`}
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
@@ -110,8 +109,8 @@ const Pricing = () => {
                             <a
                                 href="#contact"
                                 className={`block w-full text-center py-4 px-6 text-sm font-bold transition-colors duration-300 ${plan.highlighted
-                                        ? 'bg-brand-gold text-brand-charcoal hover:bg-brand-cream'
-                                        : 'bg-brand-charcoal text-brand-cream hover:bg-brand-gold hover:text-brand-charcoal'
+                                    ? 'bg-brand-gold text-brand-charcoal hover:bg-brand-cream'
+                                    : 'bg-brand-charcoal text-brand-cream hover:bg-brand-gold hover:text-brand-charcoal'
                                     }`}
                             >
                                 Discuss Your Portfolio

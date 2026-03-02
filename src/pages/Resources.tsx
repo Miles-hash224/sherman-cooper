@@ -1,4 +1,3 @@
-import React from 'react';
 import { ExternalLink, FileText, CreditCard, Building, PhoneCall, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
