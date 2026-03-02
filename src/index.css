@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-cream: #F9F6F0;
+  --color-brand-charcoal: #1A1A1A;
+  --color-brand-gold: #D4AF37;
+  --color-brand-gold-light: #E5C158;
+  --color-brand-muted: #8C7A6B;
+
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-brand-cream text-brand-charcoal font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
